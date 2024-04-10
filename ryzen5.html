@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="img/b.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bodoques PC</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="componentes.html">Componentes</a> 
+                        <a class="nav-link" href="accesorios.html">Accesorios</a>
+                        <a class="nav-link" href="equipos.html">Pc's armados</a>
+                        <a class="nav-link" href="login.html">Conectate</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header> 
+
+    <main class="flex-shrink-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 order-md-1">
+                    <!--Carrusel-->
+                    <div id="carouselImages" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!--Imagenes-->
+                            <div class="carousel-item active">
+                                <img src="img/comp/procesador ryzen 5.png" class="d-block w-100">
+                            </div>
+
+                            
+                            <!--Imagenes-->
+                        </div>
+
+                        <!--Controles-->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselImages" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselImages" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                        <!--Controles carrusel-->
+                    </div>
+                    <!--Carrusel-->
+                </div>
+
+                <div class="col-md-7 order-md-2">
+                    <br>
+                    <h2>Procesador AMD Ryzen 5 5500, 3.6GHz (4.2GHz Turbo)</h2>
+                    <br>
+                    
+                    <p class="lead">Cuando cuentas con la arquitectura de procesadores de escritorio más avanzada del mundo para jugadores y creadores de contenido, las posibilidades son infinitas. Ya sea que juegues los juegos más recientes, diseñes el próximo rascacielos o proceses datos, necesitas un procesador poderoso que pueda dar respuesta a todas estas demandas, y más. Sin lugar a dudas, los procesadores para computadoras de escritorio AMD Ryzen™ serie 5000 elevan el nivel de expectativa para jugadores y artistas por igual.</p>                      
+                    </p><p><br><strong>Características:</strong><br>Numero de nucleos: 6<br>Frecuencia base: 3,6 GHz<br>Numero de hilos: 12<br>Frecuencia turbo: 4,2 GHz<br>caché del procesador: 16 MB<br>Potencia de diseño térmico (TDP): 65 W<br>Canales de memoria: Dual-channel <br>Tipos de memoria que admite el procesador: DDR4-SDRAM<br>&nbsp;</p></p>
+                    <p>$ 154.000</p>
+                    
+                    <div class="col-3 my-3">
+                        <input class="form-control" id="cantidad" name="cantidad" type="number" min="1" max="10" value="1">
+                    </div>
+
+                    <div class="d-grid gap-3 col-7">
+                        <button class="btn btn-primary" type="button">Comprar ahora</button>
+                        <button class="btn btn-outline-primary" type="button">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+    <div class="row pt-3">
+        <div class="col">
+            <div class="alert alert-danger" role="alert">
+                <i class="fas fa-exclamation-triangle"></i>
+                Recuerde revisar el numero de productos en el carro.
+                <strong>Lea todas las especificaciones antes de comprar un producto.</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
